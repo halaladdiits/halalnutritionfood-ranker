@@ -1,0 +1,33 @@
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix halalv: <http://halal.addi.is.its.ac.id/halalv.ttl#> .
+@prefix halalf: <http://halal.addi.is.its.ac.id/resources/foodproducts/> .
+@prefix halali: <http://halal.addi.is.its.ac.id/resources/ingredients/> .
+@prefix halals: <http://halal.addi.is.its.ac.id/resources/halalsources/> .
+@prefix halalc: <http://halal.addi.is.its.ac.id/resources/certificates/> .
+@prefix halalm: <http://halal.addi.is.its.ac.id/resources/manufactures/> .
+
+halalf:Es_Stik_Dung_Dung_Kacang_Hijau a halalv:FoodProduct;
+	halalv:foodCode "8999999037635";
+	rdfs:label "Es Stik Dung Dung Kacang Hijau";
+	halalv:manufacture "PT. Unilever Indonesia Tbk";
+	halalv:netWeight 38;
+	halalv:calories 90;
+	halalv:fat 5;
+	halalv:saturatedFat 5;
+	halalv:sodium 10;
+	halalv:fiber 1;
+	halalv:sugar 6;
+	halalv:protein 1;
+	halalv:vitaminA 0;
+	halalv:vitaminC 0;
+	halalv:calcium 0;
+	halalv:iron 0;
+	halalv:foodproductId 41.
+
+halalf:Es_Stik_Dung_Dung_Kacang_Hijau halalv:manufacture halalm:41.
+
+halalf:Es_Stik_Dung_Dung_Kacang_Hijau halalv:containsIngredient halali:Sugar, halali:Skim_Milk_Powder, halali:Chocolate, halali:Bean.

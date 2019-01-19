@@ -1,0 +1,33 @@
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix halalv: <http://halal.addi.is.its.ac.id/halalv.ttl#> .
+@prefix halalf: <http://halal.addi.is.its.ac.id/resources/foodproducts/> .
+@prefix halali: <http://halal.addi.is.its.ac.id/resources/ingredients/> .
+@prefix halals: <http://halal.addi.is.its.ac.id/resources/halalsources/> .
+@prefix halalc: <http://halal.addi.is.its.ac.id/resources/certificates/> .
+@prefix halalm: <http://halal.addi.is.its.ac.id/resources/manufactures/> .
+
+halalf:Silver_Queen_Chunky_Bar_ a halalv:FoodProduct;
+	halalv:foodCode "8991007111547";
+	rdfs:label "Silver Queen Chunky Bar ";
+	halalv:manufacture "PT. Perusahaan Industri Ceres";
+	halalv:netWeight 400;
+	halalv:calories 170;
+	halalv:fat 10;
+	halalv:saturatedFat 0;
+	halalv:sodium 0.2;
+	halalv:fiber 0;
+	halalv:sugar 6;
+	halalv:protein 4;
+	halalv:vitaminA 0;
+	halalv:vitaminC 0;
+	halalv:calcium 0;
+	halalv:iron 0;
+	halalv:foodproductId 68.
+
+halalf:Silver_Queen_Chunky_Bar_ halalv:manufacture halalm:68.
+
+halalf:Silver_Queen_Chunky_Bar_ halalv:containsIngredient halali:Sugar, halali:Milk_Solid, halali:Cashew, halali:Cocoa_Mass, halali:Cocoa_Butter, halali:Vegetable_Fat, halali:Emulsifiers, halali:Salt, halali:Flavour.

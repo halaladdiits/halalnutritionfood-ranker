@@ -1,0 +1,33 @@
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix halalv: <http://halal.addi.is.its.ac.id/halalv.ttl#> .
+@prefix halalf: <http://halal.addi.is.its.ac.id/resources/foodproducts/> .
+@prefix halali: <http://halal.addi.is.its.ac.id/resources/ingredients/> .
+@prefix halals: <http://halal.addi.is.its.ac.id/resources/halalsources/> .
+@prefix halalc: <http://halal.addi.is.its.ac.id/resources/certificates/> .
+@prefix halalm: <http://halal.addi.is.its.ac.id/resources/manufactures/> .
+
+halalf:Frisian_Flag_Pure_Farm a halalv:FoodProduct;
+	halalv:foodCode "8992753005475";
+	rdfs:label "Frisian Flag Pure Farm";
+	halalv:manufacture "PT. Frisian Flag Indonesia";
+	halalv:netWeight 225;
+	halalv:calories 120;
+	halalv:fat 3;
+	halalv:saturatedFat 2;
+	halalv:sodium 99.9;
+	halalv:fiber 0;
+	halalv:sugar 12;
+	halalv:protein 7;
+	halalv:vitaminA 20;
+	halalv:vitaminC 0;
+	halalv:calcium 35;
+	halalv:iron 0;
+	halalv:foodproductId 75.
+
+halalf:Frisian_Flag_Pure_Farm halalv:manufacture halalm:75.
+
+halalf:Frisian_Flag_Pure_Farm halalv:containsIngredient halali:Skimmed_Milk_Powder, halali:Fresh_Milk, halali:milk_powder.

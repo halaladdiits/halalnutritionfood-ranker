@@ -1,0 +1,33 @@
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix halalv: <http://halal.addi.is.its.ac.id/halalv.ttl#> .
+@prefix halalf: <http://halal.addi.is.its.ac.id/resources/foodproducts/> .
+@prefix halali: <http://halal.addi.is.its.ac.id/resources/ingredients/> .
+@prefix halals: <http://halal.addi.is.its.ac.id/resources/halalsources/> .
+@prefix halalc: <http://halal.addi.is.its.ac.id/resources/certificates/> .
+@prefix halalm: <http://halal.addi.is.its.ac.id/resources/manufactures/> .
+
+halalf:Richoco_Nabati_Chocolate_Wafer a halalv:FoodProduct;
+	halalv:foodCode "8993175537810";
+	rdfs:label "Richoco Nabati Chocolate Wafer";
+	halalv:manufacture "PT. Kaldu Sari Nabati Indonesia";
+	halalv:netWeight 350;
+	halalv:calories 50;
+	halalv:fat 2;
+	halalv:saturatedFat 1.5;
+	halalv:sodium 15;
+	halalv:fiber 0;
+	halalv:sugar 3;
+	halalv:protein 1;
+	halalv:vitaminA 15;
+	halalv:vitaminC 0;
+	halalv:calcium 0;
+	halalv:iron 0;
+	halalv:foodproductId 91.
+
+halalf:Richoco_Nabati_Chocolate_Wafer halalv:manufacture halalm:91.
+
+halalf:Richoco_Nabati_Chocolate_Wafer halalv:containsIngredient halali:Wheat_Flour, halali:Sugar, halali:Vegetable_Oil, halali:Cocoa_Powder, halali:Whey_Powder, halali:Emulsifier_Soy_Lecithin, halali:Leavening_Agent, halali:Vitamin_A, halali:Vitamin_B6.

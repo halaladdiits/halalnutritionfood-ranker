@@ -1,0 +1,33 @@
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix halalv: <http://halal.addi.is.its.ac.id/halalv.ttl#> .
+@prefix halalf: <http://halal.addi.is.its.ac.id/resources/foodproducts/> .
+@prefix halali: <http://halal.addi.is.its.ac.id/resources/ingredients/> .
+@prefix halals: <http://halal.addi.is.its.ac.id/resources/halalsources/> .
+@prefix halalc: <http://halal.addi.is.its.ac.id/resources/certificates/> .
+@prefix halalm: <http://halal.addi.is.its.ac.id/resources/manufactures/> .
+
+halalf:Good_Day_Tiramisu_Bliss_Coffee a halalv:FoodProduct;
+	halalv:foodCode "8991002121003";
+	rdfs:label "Good Day Tiramisu Bliss Coffee";
+	halalv:manufacture "PT. Santos Jaya Abadi";
+	halalv:netWeight 250;
+	halalv:calories 140;
+	halalv:fat 2.5;
+	halalv:saturatedFat 2;
+	halalv:sodium 90;
+	halalv:fiber 8;
+	halalv:sugar 19;
+	halalv:protein 3;
+	halalv:vitaminA 0;
+	halalv:vitaminC 0;
+	halalv:calcium 4;
+	halalv:iron 4;
+	halalv:foodproductId 39.
+
+halalf:Good_Day_Tiramisu_Bliss_Coffee halalv:manufacture halalm:39.
+
+halalf:Good_Day_Tiramisu_Bliss_Coffee halalv:containsIngredient halali:Water, halali:Sugar, halali:Non_Diary_Creamer, halali:Instant_Coffee, halali:Skim_Milk_Powder, halali:Cocoa_Powder, halali:stabilizer, halali:Nature_Identical_Tiramisu_Flavour.

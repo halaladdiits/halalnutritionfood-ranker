@@ -1,0 +1,33 @@
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix halalv: <http://halal.addi.is.its.ac.id/halalv.ttl#> .
+@prefix halalf: <http://halal.addi.is.its.ac.id/resources/foodproducts/> .
+@prefix halali: <http://halal.addi.is.its.ac.id/resources/ingredients/> .
+@prefix halals: <http://halal.addi.is.its.ac.id/resources/halalsources/> .
+@prefix halalc: <http://halal.addi.is.its.ac.id/resources/certificates/> .
+@prefix halalm: <http://halal.addi.is.its.ac.id/resources/manufactures/> .
+
+halalf:Mie_ABC_selera_pedas_rasa_sup_tomat_pedas a halalv:FoodProduct;
+	halalv:foodCode "8992388111145";
+	rdfs:label "Mie ABC selera pedas rasa sup tomat pedas";
+	halalv:manufacture "PT. ABC President Indonesia";
+	halalv:netWeight 70;
+	halalv:calories 320;
+	halalv:fat 6;
+	halalv:saturatedFat 0;
+	halalv:sodium 1.5;
+	halalv:fiber 2;
+	halalv:sugar 3;
+	halalv:protein 7;
+	halalv:vitaminA 0;
+	halalv:vitaminC 0;
+	halalv:calcium 2;
+	halalv:iron 15;
+	halalv:foodproductId 56.
+
+halalf:Mie_ABC_selera_pedas_rasa_sup_tomat_pedas halalv:manufacture halalm:56.
+
+halalf:Mie_ABC_selera_pedas_rasa_sup_tomat_pedas halalv:containsIngredient halali:Wheat_Flour, halali:Edible_Vegetable_Oil, halali:Salt, halali:Acidity_Regulator, halali:stabilizer, halali:Thickener_And_Colouring, halali:Sugar, halali:Flavor_Enhancer, halali:Nature_Identical_Chicken_Flavor, halali:Nature_Identical_Tomato, halali:Pepper_Powder, halali:Onion_Powder, halali:Garlic_Powder.

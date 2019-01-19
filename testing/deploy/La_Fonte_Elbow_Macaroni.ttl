@@ -1,0 +1,33 @@
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix halalv: <http://halal.addi.is.its.ac.id/halalv.ttl#> .
+@prefix halalf: <http://halal.addi.is.its.ac.id/resources/foodproducts/> .
+@prefix halali: <http://halal.addi.is.its.ac.id/resources/ingredients/> .
+@prefix halals: <http://halal.addi.is.its.ac.id/resources/halalsources/> .
+@prefix halalc: <http://halal.addi.is.its.ac.id/resources/certificates/> .
+@prefix halalm: <http://halal.addi.is.its.ac.id/resources/manufactures/> .
+
+halalf:La_Fonte_Elbow_Macaroni a halalv:FoodProduct;
+	halalv:foodCode "8888900515044";
+	rdfs:label "La Fonte Elbow Macaroni";
+	halalv:manufacture "PT. Indofood CBP Sukses Makmur Tbk";
+	halalv:netWeight 225;
+	halalv:calories 220;
+	halalv:fat 1;
+	halalv:saturatedFat 0;
+	halalv:sodium 10;
+	halalv:fiber 2;
+	halalv:sugar 0;
+	halalv:protein 6;
+	halalv:vitaminA 0;
+	halalv:vitaminC 0;
+	halalv:calcium 0;
+	halalv:iron 0;
+	halalv:foodproductId 63.
+
+halalf:La_Fonte_Elbow_Macaroni halalv:manufacture halalm:63.
+
+halalf:La_Fonte_Elbow_Macaroni halalv:containsIngredient halali:Durum_Wheat_Semolina, halali:Salt, halali:Wheat_Flour.

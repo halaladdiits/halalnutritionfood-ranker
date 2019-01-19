@@ -1,0 +1,33 @@
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix halalv: <http://halal.addi.is.its.ac.id/halalv.ttl#> .
+@prefix halalf: <http://halal.addi.is.its.ac.id/resources/foodproducts/> .
+@prefix halali: <http://halal.addi.is.its.ac.id/resources/ingredients/> .
+@prefix halals: <http://halal.addi.is.its.ac.id/resources/halalsources/> .
+@prefix halalc: <http://halal.addi.is.its.ac.id/resources/certificates/> .
+@prefix halalm: <http://halal.addi.is.its.ac.id/resources/manufactures/> .
+
+halalf:Blue_Band a halalv:FoodProduct;
+	halalv:foodCode "899999919704";
+	rdfs:label "Blue Band";
+	halalv:manufacture "PT. Unilever Indonesia Tbk";
+	halalv:netWeight 55;
+	halalv:calories 90;
+	halalv:fat 10;
+	halalv:saturatedFat 4;
+	halalv:sodium 12;
+	halalv:fiber 0;
+	halalv:sugar 0;
+	halalv:protein 0;
+	halalv:vitaminA 30;
+	halalv:vitaminC 0;
+	halalv:calcium 0;
+	halalv:iron 0;
+	halalv:foodproductId 46.
+
+halalf:Blue_Band halalv:manufacture halalm:46.
+
+halalf:Blue_Band halalv:containsIngredient halali:Vegetable_Oil, halali:Water, halali:Salt, halali:Vegetable_Emulsifier, halali:Antioxidant, halali:Xanthan_gum, halali:Beta_carotene, halali:Vitamins.

@@ -1,0 +1,33 @@
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix halalv: <http://halal.addi.is.its.ac.id/halalv.ttl#> .
+@prefix halalf: <http://halal.addi.is.its.ac.id/resources/foodproducts/> .
+@prefix halali: <http://halal.addi.is.its.ac.id/resources/ingredients/> .
+@prefix halals: <http://halal.addi.is.its.ac.id/resources/halalsources/> .
+@prefix halalc: <http://halal.addi.is.its.ac.id/resources/certificates/> .
+@prefix halalm: <http://halal.addi.is.its.ac.id/resources/manufactures/> .
+
+halalf:Good_Day_Coffee_Drink_Avocado a halalv:FoodProduct;
+	halalv:foodCode "8991001780494";
+	rdfs:label "Good Day Coffee Drink Avocado";
+	halalv:manufacture "PT. Monysaga Prima";
+	halalv:netWeight 250;
+	halalv:calories 150;
+	halalv:fat 3;
+	halalv:saturatedFat 3;
+	halalv:sodium 85;
+	halalv:fiber 5;
+	halalv:sugar 22;
+	halalv:protein 1;
+	halalv:vitaminA 2;
+	halalv:vitaminC 0;
+	halalv:calcium 4;
+	halalv:iron 0;
+	halalv:foodproductId 23.
+
+halalf:Good_Day_Coffee_Drink_Avocado halalv:manufacture halalm:23.
+
+halalf:Good_Day_Coffee_Drink_Avocado halalv:containsIngredient halali:Water, halali:Sugar, halali:creamer, halali:Instant_Coffee, halali:Skimmed_Milk, halali:cacao_powder, halali:avocado_identical_flavour.

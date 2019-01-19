@@ -1,0 +1,33 @@
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix halalv: <http://halal.addi.is.its.ac.id/halalv.ttl#> .
+@prefix halalf: <http://halal.addi.is.its.ac.id/resources/foodproducts/> .
+@prefix halali: <http://halal.addi.is.its.ac.id/resources/ingredients/> .
+@prefix halals: <http://halal.addi.is.its.ac.id/resources/halalsources/> .
+@prefix halalc: <http://halal.addi.is.its.ac.id/resources/certificates/> .
+@prefix halalm: <http://halal.addi.is.its.ac.id/resources/manufactures/> .
+
+halalf:Kapal_Api_White_Coffee_3in1_Instant_Coffee a halalv:FoodProduct;
+	halalv:foodCode "8991002106314";
+	rdfs:label "Kapal Api White Coffee 3in1 Instant Coffee";
+	halalv:manufacture "PT. Santos Jaya Abadi";
+	halalv:netWeight 37;
+	halalv:calories 170;
+	halalv:fat 5;
+	halalv:saturatedFat 5;
+	halalv:sodium 70;
+	halalv:fiber 1;
+	halalv:sugar 20;
+	halalv:protein 2;
+	halalv:vitaminA 0;
+	halalv:vitaminC 15;
+	halalv:calcium 0;
+	halalv:iron 0;
+	halalv:foodproductId 31.
+
+halalf:Kapal_Api_White_Coffee_3in1_Instant_Coffee halalv:manufacture halalm:31.
+
+halalf:Kapal_Api_White_Coffee_3in1_Instant_Coffee halalv:containsIngredient halali:Non_Dairy_Creamer, halali:Sugar, halali:Instant_Coffee, halali:milk_powder, halali:Cocoa_Powder.

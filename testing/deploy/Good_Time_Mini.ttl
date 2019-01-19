@@ -1,0 +1,35 @@
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix halalv: <http://halal.addi.is.its.ac.id/halalv.ttl#> .
+@prefix halalf: <http://halal.addi.is.its.ac.id/resources/foodproducts/> .
+@prefix halali: <http://halal.addi.is.its.ac.id/resources/ingredients/> .
+@prefix halals: <http://halal.addi.is.its.ac.id/resources/halalsources/> .
+@prefix halalc: <http://halal.addi.is.its.ac.id/resources/certificates/> .
+@prefix halalm: <http://halal.addi.is.its.ac.id/resources/manufactures/> .
+
+halalf:Good_Time_Mini a halalv:FoodProduct;
+	halalv:foodCode "894755030400";
+	rdfs:label "Good Time Mini";
+	halalv:manufacture "PT. Arnott`s Indonesia";
+	halalv:netWeight 19;
+	halalv:calories 90;
+	halalv:fat 4;
+	halalv:saturatedFat 2.5;
+	halalv:sodium 90;
+	halalv:fiber 2;
+	halalv:sugar 5;
+	halalv:protein 1;
+	halalv:vitaminA 0;
+	halalv:vitaminC 0;
+	halalv:calcium 0;
+	halalv:iron 0;
+	halalv:foodproductId 5.
+
+halalf:Good_Time_Mini halalv:manufacture halalm:5.
+
+halalf:Good_Time_Mini halalv:certificate halalc:5.
+
+halalf:Good_Time_Mini halalv:containsIngredient halali:Wheat_Flour, halali:Choco_Chips, halali:Sugar, halali:Margarine, halali:Cocoa_Powder, halali:Sodium_carbonate, halali:Eggs, halali:Salt, halali:Emulsifier, halali:Sesame_Seeds_Peanuts, halali:Treenuts.

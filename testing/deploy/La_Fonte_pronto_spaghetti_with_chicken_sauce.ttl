@@ -1,0 +1,33 @@
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix halalv: <http://halal.addi.is.its.ac.id/halalv.ttl#> .
+@prefix halalf: <http://halal.addi.is.its.ac.id/resources/foodproducts/> .
+@prefix halali: <http://halal.addi.is.its.ac.id/resources/ingredients/> .
+@prefix halals: <http://halal.addi.is.its.ac.id/resources/halalsources/> .
+@prefix halalc: <http://halal.addi.is.its.ac.id/resources/certificates/> .
+@prefix halalm: <http://halal.addi.is.its.ac.id/resources/manufactures/> .
+
+halalf:La_Fonte_pronto_spaghetti_with_chicken_sauce a halalv:FoodProduct;
+	halalv:foodCode "888900620114";
+	rdfs:label "La Fonte pronto spaghetti with chicken sauce";
+	halalv:manufacture "PT. Indofood CBP Sukses Makmur Tbk";
+	halalv:netWeight 117;
+	halalv:calories 340;
+	halalv:fat 8;
+	halalv:saturatedFat 0;
+	halalv:sodium 0.7;
+	halalv:fiber 4;
+	halalv:sugar 0;
+	halalv:protein 10;
+	halalv:vitaminA 0;
+	halalv:vitaminC 0;
+	halalv:calcium 4;
+	halalv:iron 15;
+	halalv:foodproductId 70.
+
+halalf:La_Fonte_pronto_spaghetti_with_chicken_sauce halalv:manufacture halalm:70.
+
+halalf:La_Fonte_pronto_spaghetti_with_chicken_sauce halalv:containsIngredient halali:Semolina_Durum_Wheat, halali:Vegetable_Protein, halali:Vegetable_Oil, halali:Chicken_Broth, halali:Sweet_Soy_Sauce, halali:Salty_Soy_Sauce, halali:Red_Chilli, halali:Green_Chilli, halali:Tapioca, halali:Chicken_Meat, halali:Flavour_Enhancer, halali:Sugar, halali:Salt.

@@ -1,0 +1,35 @@
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix halalv: <http://halal.addi.is.its.ac.id/halalv.ttl#> .
+@prefix halalf: <http://halal.addi.is.its.ac.id/resources/foodproducts/> .
+@prefix halali: <http://halal.addi.is.its.ac.id/resources/ingredients/> .
+@prefix halals: <http://halal.addi.is.its.ac.id/resources/halalsources/> .
+@prefix halalc: <http://halal.addi.is.its.ac.id/resources/certificates/> .
+@prefix halalm: <http://halal.addi.is.its.ac.id/resources/manufactures/> .
+
+halalf:Minuman_teh_rasa_jambu_klutuk_kemasan_botol_PET_Fruit_tea_guava a halalv:FoodProduct;
+	halalv:foodCode "8996006855541";
+	rdfs:label "Minuman teh rasa jambu klutuk kemasan botol PET (Fruit tea guava)";
+	halalv:manufacture "Sinar Sosro, PT";
+	halalv:netWeight 250;
+	halalv:calories 120;
+	halalv:fat 0;
+	halalv:saturatedFat 0;
+	halalv:sodium 0;
+	halalv:fiber 0;
+	halalv:sugar 24;
+	halalv:protein 0;
+	halalv:vitaminA 0;
+	halalv:vitaminC 0;
+	halalv:calcium 0;
+	halalv:iron 0;
+	halalv:foodproductId 153.
+
+halalf:Minuman_teh_rasa_jambu_klutuk_kemasan_botol_PET_Fruit_tea_guava halalv:manufacture halalm:153.
+
+halalf:Minuman_teh_rasa_jambu_klutuk_kemasan_botol_PET_Fruit_tea_guava halalv:certificate halalc:18.
+
+halalf:Minuman_teh_rasa_jambu_klutuk_kemasan_botol_PET_Fruit_tea_guava halalv:containsIngredient halali:Water, halali:Sugar, halali:Black_Tea, halali:Acidity_Regulator, halali:Apple_Juice_Concentrate, halali:Synthetic_Guava_Flavour, halali:High_Fructose_Corn_Syrup, halali:Citric_acid, halali:Sodium_citrate, halali:Ascorbic_acid.

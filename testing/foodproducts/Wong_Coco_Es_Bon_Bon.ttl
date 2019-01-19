@@ -1,0 +1,35 @@
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix halalv: <http://halal.addi.is.its.ac.id/halalv.ttl#> .
+@prefix halalf: <http://halal.addi.is.its.ac.id/resources/foodproducts/> .
+@prefix halali: <http://halal.addi.is.its.ac.id/resources/ingredients/> .
+@prefix halals: <http://halal.addi.is.its.ac.id/resources/halalsources/> .
+@prefix halalc: <http://halal.addi.is.its.ac.id/resources/certificates/> .
+@prefix halalm: <http://halal.addi.is.its.ac.id/resources/manufactures/> .
+
+halalf:Wong_Coco_Es_Bon_Bon a halalv:FoodProduct;
+	halalv:foodCode "839278100340";
+	rdfs:label "Wong Coco Es Bon Bon";
+	halalv:manufacture "PT. Keong Nusantara Abadi";
+	halalv:netWeight 80;
+	halalv:calories 70;
+	halalv:fat 0;
+	halalv:saturatedFat 1;
+	halalv:sodium 10;
+	halalv:fiber 0;
+	halalv:sugar 14;
+	halalv:protein 1;
+	halalv:vitaminA 0;
+	halalv:vitaminC 0;
+	halalv:calcium 0;
+	halalv:iron 0;
+	halalv:foodproductId 13.
+
+halalf:Wong_Coco_Es_Bon_Bon halalv:manufacture halalm:13.
+
+halalf:Wong_Coco_Es_Bon_Bon halalv:certificate halalc:6.
+
+halalf:Wong_Coco_Es_Bon_Bon halalv:containsIngredient halali:Sugar, halali:Skimmed_Milk, halali:Natural, halali:Chocolate_Extract, halali:Citric_acid, halali:Chocolate_Flavour, halali:Sodium_benzoate, halali:Tartrazine, halali:Allura_Red_AC, halali:Brilliant_Blue_FCF, halali:Water.

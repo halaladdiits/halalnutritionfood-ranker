@@ -1,0 +1,33 @@
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix halalv: <http://halal.addi.is.its.ac.id/halalv.ttl#> .
+@prefix halalf: <http://halal.addi.is.its.ac.id/resources/foodproducts/> .
+@prefix halali: <http://halal.addi.is.its.ac.id/resources/ingredients/> .
+@prefix halals: <http://halal.addi.is.its.ac.id/resources/halalsources/> .
+@prefix halalc: <http://halal.addi.is.its.ac.id/resources/certificates/> .
+@prefix halalm: <http://halal.addi.is.its.ac.id/resources/manufactures/> .
+
+halalf:Wong_Coco_Sari_Kelapa a halalv:FoodProduct;
+	halalv:foodCode "8998288100043";
+	rdfs:label "Wong Coco Sari Kelapa";
+	halalv:manufacture "PT. Keong Nusantara Abadi";
+	halalv:netWeight 250;
+	halalv:calories 190;
+	halalv:fat 0;
+	halalv:saturatedFat 0;
+	halalv:sodium 35;
+	halalv:fiber 2;
+	halalv:sugar 39;
+	halalv:protein 0.3;
+	halalv:vitaminA 0;
+	halalv:vitaminC 0;
+	halalv:calcium 0;
+	halalv:iron 0;
+	halalv:foodproductId 43.
+
+halalf:Wong_Coco_Sari_Kelapa halalv:manufacture halalm:43.
+
+halalf:Wong_Coco_Sari_Kelapa halalv:containsIngredient halali:Nata_De_Coco, halali:Water, halali:Sugar, halali:Cocopandan_Flavour, halali:Citric_acid, halali:Sodium_Benzoat.

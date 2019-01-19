@@ -1,0 +1,33 @@
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix halalv: <http://halal.addi.is.its.ac.id/halalv.ttl#> .
+@prefix halalf: <http://halal.addi.is.its.ac.id/resources/foodproducts/> .
+@prefix halali: <http://halal.addi.is.its.ac.id/resources/ingredients/> .
+@prefix halals: <http://halal.addi.is.its.ac.id/resources/halalsources/> .
+@prefix halalc: <http://halal.addi.is.its.ac.id/resources/certificates/> .
+@prefix halalm: <http://halal.addi.is.its.ac.id/resources/manufactures/> .
+
+halalf:Nata_De_Coco a halalv:FoodProduct;
+	halalv:foodCode "899333031006";
+	rdfs:label "Nata De Coco";
+	halalv:manufacture "PT. Matahari Putra";
+	halalv:netWeight 250;
+	halalv:calories 20;
+	halalv:fat 0;
+	halalv:saturatedFat 0;
+	halalv:sodium 65;
+	halalv:fiber 1;
+	halalv:sugar 3;
+	halalv:protein 0;
+	halalv:vitaminA 0;
+	halalv:vitaminC 0;
+	halalv:calcium 0;
+	halalv:iron 0;
+	halalv:foodproductId 93.
+
+halalf:Nata_De_Coco halalv:manufacture halalm:93.
+
+halalf:Nata_De_Coco halalv:containsIngredient halali:Nata_De_Coco, halali:Water, halali:Sugar, halali:Calium_Sorbate, halali:Citric_acid, halali:AcesumfameK, halali:Artificial_Sweetener_Sucralose.

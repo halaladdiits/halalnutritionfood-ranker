@@ -1,0 +1,33 @@
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix halalv: <http://halal.addi.is.its.ac.id/halalv.ttl#> .
+@prefix halalf: <http://halal.addi.is.its.ac.id/resources/foodproducts/> .
+@prefix halali: <http://halal.addi.is.its.ac.id/resources/ingredients/> .
+@prefix halals: <http://halal.addi.is.its.ac.id/resources/halalsources/> .
+@prefix halalc: <http://halal.addi.is.its.ac.id/resources/certificates/> .
+@prefix halalm: <http://halal.addi.is.its.ac.id/resources/manufactures/> .
+
+halalf:Pazar_Sambal_Terasi_Original a halalv:FoodProduct;
+	halalv:foodCode "8992831500557";
+	rdfs:label "Pazar Sambal Terasi Original";
+	halalv:manufacture "PT. Asiacapital Utama Indonesia";
+	halalv:netWeight 250;
+	halalv:calories 619;
+	halalv:fat 39.3;
+	halalv:saturatedFat 13.5;
+	halalv:sodium 5.2;
+	halalv:fiber 6.2;
+	halalv:sugar 14.1;
+	halalv:protein 0;
+	halalv:vitaminA 144;
+	halalv:vitaminC 36;
+	halalv:calcium 8;
+	halalv:iron 74;
+	halalv:foodproductId 94.
+
+halalf:Pazar_Sambal_Terasi_Original halalv:manufacture halalm:94.
+
+halalf:Pazar_Sambal_Terasi_Original halalv:containsIngredient halali:Chili, halali:Shrimp_Paste, halali:Shallots, halali:Vegetable_Oil, halali:Flavour_Enhacer, halali:Sugar, halali:Salt.

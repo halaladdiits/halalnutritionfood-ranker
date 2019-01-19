@@ -1,0 +1,33 @@
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix halalv: <http://halal.addi.is.its.ac.id/halalv.ttl#> .
+@prefix halalf: <http://halal.addi.is.its.ac.id/resources/foodproducts/> .
+@prefix halali: <http://halal.addi.is.its.ac.id/resources/ingredients/> .
+@prefix halals: <http://halal.addi.is.its.ac.id/resources/halalsources/> .
+@prefix halalc: <http://halal.addi.is.its.ac.id/resources/certificates/> .
+@prefix halalm: <http://halal.addi.is.its.ac.id/resources/manufactures/> .
+
+halalf:Dancow_Susu_Bubuk_Full_Cream a halalv:FoodProduct;
+	halalv:foodCode "8992696494097";
+	rdfs:label "Dancow Susu Bubuk Full Cream";
+	halalv:manufacture "PT. Nestle Indonesia";
+	halalv:netWeight 27;
+	halalv:calories 130;
+	halalv:fat 7;
+	halalv:saturatedFat 4;
+	halalv:sodium 1;
+	halalv:fiber 0;
+	halalv:sugar 0;
+	halalv:protein 7;
+	halalv:vitaminA 25;
+	halalv:vitaminC 15;
+	halalv:calcium 35;
+	halalv:iron 10;
+	halalv:foodproductId 73.
+
+halalf:Dancow_Susu_Bubuk_Full_Cream halalv:manufacture halalm:73.
+
+halalf:Dancow_Susu_Bubuk_Full_Cream halalv:containsIngredient halali:milk_powder, halali:Lactosa, halali:Lecitin, halali:Vitamin_Premix.

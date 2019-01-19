@@ -1,0 +1,33 @@
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix halalv: <http://halal.addi.is.its.ac.id/halalv.ttl#> .
+@prefix halalf: <http://halal.addi.is.its.ac.id/resources/foodproducts/> .
+@prefix halali: <http://halal.addi.is.its.ac.id/resources/ingredients/> .
+@prefix halals: <http://halal.addi.is.its.ac.id/resources/halalsources/> .
+@prefix halalc: <http://halal.addi.is.its.ac.id/resources/certificates/> .
+@prefix halalm: <http://halal.addi.is.its.ac.id/resources/manufactures/> .
+
+halalf:Original_Love_Juice_Sirsak a halalv:FoodProduct;
+	halalv:foodCode "8997009780410";
+	rdfs:label "Original Love Juice Sirsak";
+	halalv:manufacture "PT. Hale International";
+	halalv:netWeight 330;
+	halalv:calories 170;
+	halalv:fat 0;
+	halalv:saturatedFat 0;
+	halalv:sodium 85;
+	halalv:fiber 11;
+	halalv:sugar 32;
+	halalv:protein 0;
+	halalv:vitaminA 0;
+	halalv:vitaminC 100;
+	halalv:calcium 0;
+	halalv:iron 0;
+	halalv:foodproductId 87.
+
+halalf:Original_Love_Juice_Sirsak halalv:manufacture halalm:87.
+
+halalf:Original_Love_Juice_Sirsak halalv:containsIngredient halali:Water, halali:Soursop_Puree, halali:Sugar, halali:Polydextrose, halali:Vegetable_Emulsifier, halali:Citric_acid, halali:Sodium_citrate, halali:stabilizer, halali:Sodium_Chloride, halali:Vitamin_C, halali:Nature_Identical_Soursop_Flavour.

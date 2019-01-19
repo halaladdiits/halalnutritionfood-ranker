@@ -1,0 +1,33 @@
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix halalv: <http://halal.addi.is.its.ac.id/halalv.ttl#> .
+@prefix halalf: <http://halal.addi.is.its.ac.id/resources/foodproducts/> .
+@prefix halali: <http://halal.addi.is.its.ac.id/resources/ingredients/> .
+@prefix halals: <http://halal.addi.is.its.ac.id/resources/halalsources/> .
+@prefix halalc: <http://halal.addi.is.its.ac.id/resources/certificates/> .
+@prefix halalm: <http://halal.addi.is.its.ac.id/resources/manufactures/> .
+
+halalf:Nestle_Bear_Brand a halalv:FoodProduct;
+	halalv:foodCode "899269640441";
+	rdfs:label "Nestle Bear Brand";
+	halalv:manufacture "PT. Nestle Indonesia";
+	halalv:netWeight 189;
+	halalv:calories 120;
+	halalv:fat 7;
+	halalv:saturatedFat 5;
+	halalv:sodium 0;
+	halalv:fiber 0;
+	halalv:sugar 0;
+	halalv:protein 6;
+	halalv:vitaminA 0;
+	halalv:vitaminC 0;
+	halalv:calcium 0;
+	halalv:iron 0;
+	halalv:foodproductId 74.
+
+halalf:Nestle_Bear_Brand halalv:manufacture halalm:74.
+
+halalf:Nestle_Bear_Brand halalv:containsIngredient halali:Fresh_Milk, halali:Skim_Milk_Powder, halali:Skimmed_Milk.

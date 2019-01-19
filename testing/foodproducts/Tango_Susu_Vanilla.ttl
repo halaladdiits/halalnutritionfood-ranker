@@ -1,0 +1,33 @@
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix halalv: <http://halal.addi.is.its.ac.id/halalv.ttl#> .
+@prefix halalf: <http://halal.addi.is.its.ac.id/resources/foodproducts/> .
+@prefix halali: <http://halal.addi.is.its.ac.id/resources/ingredients/> .
+@prefix halals: <http://halal.addi.is.its.ac.id/resources/halalsources/> .
+@prefix halalc: <http://halal.addi.is.its.ac.id/resources/certificates/> .
+@prefix halalm: <http://halal.addi.is.its.ac.id/resources/manufactures/> .
+
+halalf:Tango_Susu_Vanilla a halalv:FoodProduct;
+	halalv:foodCode "8991102300544";
+	rdfs:label "Tango Susu Vanilla";
+	halalv:manufacture "PT. Ultra Prima Abadi";
+	halalv:netWeight 176;
+	halalv:calories 90;
+	halalv:fat 4;
+	halalv:saturatedFat 1.5;
+	halalv:sodium 75;
+	halalv:fiber 0;
+	halalv:sugar 5;
+	halalv:protein 1;
+	halalv:vitaminA 0;
+	halalv:vitaminC 0;
+	halalv:calcium 2;
+	halalv:iron 2;
+	halalv:foodproductId 82.
+
+halalf:Tango_Susu_Vanilla halalv:manufacture halalm:82.
+
+halalf:Tango_Susu_Vanilla halalv:containsIngredient halali:Wheat_Flour, halali:Sugar, halali:Vegetable_Fat, halali:milk_powder, halali:Dextrose, halali:Emulsifier, halali:Salt, halali:Egg_Powder, halali:Artificial_Vanila_Flavour.

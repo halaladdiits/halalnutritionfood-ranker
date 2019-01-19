@@ -1,0 +1,33 @@
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix halalv: <http://halal.addi.is.its.ac.id/halalv.ttl#> .
+@prefix halalf: <http://halal.addi.is.its.ac.id/resources/foodproducts/> .
+@prefix halali: <http://halal.addi.is.its.ac.id/resources/ingredients/> .
+@prefix halals: <http://halal.addi.is.its.ac.id/resources/halalsources/> .
+@prefix halalc: <http://halal.addi.is.its.ac.id/resources/certificates/> .
+@prefix halalm: <http://halal.addi.is.its.ac.id/resources/manufactures/> .
+
+halalf:La_Fonte_Spaghetti_with_Mushroom_Sauce a halalv:FoodProduct;
+	halalv:foodCode "888900620113";
+	rdfs:label "La Fonte Spaghetti with Mushroom Sauce";
+	halalv:manufacture "PT. Indofood CBP Sukses Makmur Tbk";
+	halalv:netWeight 117;
+	halalv:calories 310;
+	halalv:fat 4;
+	halalv:saturatedFat 0;
+	halalv:sodium 99.9;
+	halalv:fiber 3;
+	halalv:sugar 0;
+	halalv:protein 8;
+	halalv:vitaminA 0;
+	halalv:vitaminC 0;
+	halalv:calcium 4;
+	halalv:iron 15;
+	halalv:foodproductId 35.
+
+halalf:La_Fonte_Spaghetti_with_Mushroom_Sauce halalv:manufacture halalm:35.
+
+halalf:La_Fonte_Spaghetti_with_Mushroom_Sauce halalv:containsIngredient halali:Spaghetti, halali:Semolina_Durum_Wheat, halali:Tomato_Sauce, halali:Salty_Soy_Sauce, halali:Chicnken_Broth, halali:Mushroom, halali:Vegetable_Oil, halali:Sweet_Soy_Sauce, halali:Sugar, halali:Salt, halali:Tapioca, halali:Flavour_Enhancer, halali:Red_Onion, halali:Garlic.

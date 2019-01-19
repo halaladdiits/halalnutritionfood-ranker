@@ -1,0 +1,33 @@
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix halalv: <http://halal.addi.is.its.ac.id/halalv.ttl#> .
+@prefix halalf: <http://halal.addi.is.its.ac.id/resources/foodproducts/> .
+@prefix halali: <http://halal.addi.is.its.ac.id/resources/ingredients/> .
+@prefix halals: <http://halal.addi.is.its.ac.id/resources/halalsources/> .
+@prefix halalc: <http://halal.addi.is.its.ac.id/resources/certificates/> .
+@prefix halalm: <http://halal.addi.is.its.ac.id/resources/manufactures/> .
+
+halalf:Tao_Kae_Noi_Crispy_Seaweed_Big_Sheet a halalv:FoodProduct;
+	halalv:foodCode "8857107232023";
+	rdfs:label "Tao Kae Noi Crispy  Seaweed Big Sheet";
+	halalv:manufacture "PT. Nirwana Lestari";
+	halalv:netWeight 4;
+	halalv:calories 25;
+	halalv:fat 2.5;
+	halalv:saturatedFat 1;
+	halalv:sodium 20;
+	halalv:fiber 0;
+	halalv:sugar 0;
+	halalv:protein 1;
+	halalv:vitaminA 0;
+	halalv:vitaminC 0;
+	halalv:calcium 0;
+	halalv:iron 2;
+	halalv:foodproductId 86.
+
+halalf:Tao_Kae_Noi_Crispy_Seaweed_Big_Sheet halalv:manufacture halalm:86.
+
+halalf:Tao_Kae_Noi_Crispy_Seaweed_Big_Sheet halalv:containsIngredient halali:Seaweed, halali:Vegetable_Oil, halali:Pepper_Powder, halali:Chili, halali:Salt, halali:Dinatrium_Inosinat.

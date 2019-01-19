@@ -1,0 +1,33 @@
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix halalv: <http://halal.addi.is.its.ac.id/halalv.ttl#> .
+@prefix halalf: <http://halal.addi.is.its.ac.id/resources/foodproducts/> .
+@prefix halali: <http://halal.addi.is.its.ac.id/resources/ingredients/> .
+@prefix halals: <http://halal.addi.is.its.ac.id/resources/halalsources/> .
+@prefix halalc: <http://halal.addi.is.its.ac.id/resources/certificates/> .
+@prefix halalm: <http://halal.addi.is.its.ac.id/resources/manufactures/> .
+
+halalf:Majorico_Wafer_Roll_ a halalv:FoodProduct;
+	halalv:foodCode "899389162230";
+	rdfs:label "Majorico Wafer Roll ";
+	halalv:manufacture "PT. Unimos";
+	halalv:netWeight 30;
+	halalv:calories 150;
+	halalv:fat 6;
+	halalv:saturatedFat 5;
+	halalv:sodium 81;
+	halalv:fiber 0;
+	halalv:sugar 13;
+	halalv:protein 2;
+	halalv:vitaminA 0;
+	halalv:vitaminC 0;
+	halalv:calcium 0;
+	halalv:iron 0;
+	halalv:foodproductId 98.
+
+halalf:Majorico_Wafer_Roll_ halalv:manufacture halalm:98.
+
+halalf:Majorico_Wafer_Roll_ halalv:containsIngredient halali:Sugar, halali:Wheat_Flour, halali:Butylated_hydroxyanisole, halali:Cocoa_Powder, halali:Corn_Strach, halali:Maltodextrine, halali:TertButylhydroquinone, halali:Tapioca, halali:Caramel, halali:milk_powder, halali:Soya_Lecithin, halali:Salt, halali:Chocolate_Flavour, halali:Artificial_Vanila_Flavour.

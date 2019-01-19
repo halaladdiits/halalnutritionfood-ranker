@@ -1,0 +1,33 @@
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix halalv: <http://halal.addi.is.its.ac.id/halalv.ttl#> .
+@prefix halalf: <http://halal.addi.is.its.ac.id/resources/foodproducts/> .
+@prefix halali: <http://halal.addi.is.its.ac.id/resources/ingredients/> .
+@prefix halals: <http://halal.addi.is.its.ac.id/resources/halalsources/> .
+@prefix halalc: <http://halal.addi.is.its.ac.id/resources/certificates/> .
+@prefix halalm: <http://halal.addi.is.its.ac.id/resources/manufactures/> .
+
+halalf:Walls_Ice_Cream_Feast_Chocolate a halalv:FoodProduct;
+	halalv:foodCode "8999999048567";
+	rdfs:label "Wall's Ice Cream Feast Chocolate";
+	halalv:manufacture "PT. Unilever Indonesia Tbk";
+	halalv:netWeight 65;
+	halalv:calories 40;
+	halalv:fat 5;
+	halalv:saturatedFat 0;
+	halalv:sodium 25;
+	halalv:fiber 0;
+	halalv:sugar 15;
+	halalv:protein 2;
+	halalv:vitaminA 0;
+	halalv:vitaminC 0;
+	halalv:calcium 0;
+	halalv:iron 0;
+	halalv:foodproductId 33.
+
+halalf:Walls_Ice_Cream_Feast_Chocolate halalv:manufacture halalm:33.
+
+halalf:Walls_Ice_Cream_Feast_Chocolate halalv:containsIngredient halali:Water, halali:Chocolate, halali:Whey_Oil, halali:Skimmed_Milk_Powder, halali:Maltodextrine, halali:chocolate_powder, halali:Whey_Powder.

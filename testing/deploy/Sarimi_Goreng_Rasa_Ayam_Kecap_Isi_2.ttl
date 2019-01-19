@@ -1,0 +1,33 @@
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix halalv: <http://halal.addi.is.its.ac.id/halalv.ttl#> .
+@prefix halalf: <http://halal.addi.is.its.ac.id/resources/foodproducts/> .
+@prefix halali: <http://halal.addi.is.its.ac.id/resources/ingredients/> .
+@prefix halals: <http://halal.addi.is.its.ac.id/resources/halalsources/> .
+@prefix halalc: <http://halal.addi.is.its.ac.id/resources/certificates/> .
+@prefix halalm: <http://halal.addi.is.its.ac.id/resources/manufactures/> .
+
+halalf:Sarimi_Goreng_Rasa_Ayam_Kecap_Isi_2 a halalv:FoodProduct;
+	halalv:foodCode "89686017749";
+	rdfs:label "Sarimi Goreng Rasa Ayam Kecap Isi 2";
+	halalv:manufacture "PT. Indofood CBP Sukses Makmur Tbk";
+	halalv:netWeight 126;
+	halalv:calories 580;
+	halalv:fat 24;
+	halalv:saturatedFat 12;
+	halalv:sodium 1.4;
+	halalv:fiber 9;
+	halalv:sugar 5;
+	halalv:protein 12;
+	halalv:vitaminA 0;
+	halalv:vitaminC 0;
+	halalv:calcium 0;
+	halalv:iron 0;
+	halalv:foodproductId 52.
+
+halalf:Sarimi_Goreng_Rasa_Ayam_Kecap_Isi_2 halalv:manufacture halalm:52.
+
+halalf:Sarimi_Goreng_Rasa_Ayam_Kecap_Isi_2 halalv:containsIngredient halali:Wheat_Flour, halali:Whey_Powder, halali:Salt, halali:Sugar, halali:Monosodium_glutamate, halali:Pepper_Powder, halali:Chili_Powder, halali:Garlic_Powder, halali:Vegetable_Oil.

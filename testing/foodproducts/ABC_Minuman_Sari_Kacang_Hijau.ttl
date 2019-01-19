@@ -1,0 +1,33 @@
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix halalv: <http://halal.addi.is.its.ac.id/halalv.ttl#> .
+@prefix halalf: <http://halal.addi.is.its.ac.id/resources/foodproducts/> .
+@prefix halali: <http://halal.addi.is.its.ac.id/resources/ingredients/> .
+@prefix halals: <http://halal.addi.is.its.ac.id/resources/halalsources/> .
+@prefix halalc: <http://halal.addi.is.its.ac.id/resources/certificates/> .
+@prefix halalm: <http://halal.addi.is.its.ac.id/resources/manufactures/> .
+
+halalf:ABC_Minuman_Sari_Kacang_Hijau a halalv:FoodProduct;
+	halalv:foodCode "711844162419";
+	rdfs:label "ABC Minuman Sari Kacang Hijau";
+	halalv:manufacture "PT. Jeinz ABC Indonesia";
+	halalv:netWeight 250;
+	halalv:calories 160;
+	halalv:fat 1;
+	halalv:saturatedFat 0;
+	halalv:sodium 55;
+	halalv:fiber 0;
+	halalv:sugar 26;
+	halalv:protein 2;
+	halalv:vitaminA 0;
+	halalv:vitaminC 0;
+	halalv:calcium 0;
+	halalv:iron 0;
+	halalv:foodproductId 99.
+
+halalf:ABC_Minuman_Sari_Kacang_Hijau halalv:manufacture halalm:99.
+
+halalf:ABC_Minuman_Sari_Kacang_Hijau halalv:containsIngredient halali:Mungbean_Juice, halali:Water, halali:Sugar, halali:Palm_Sugar, halali:Pandan_Leaves, halali:Ginger, halali:Natural_Colourant_Caramel_Class_IE150a.

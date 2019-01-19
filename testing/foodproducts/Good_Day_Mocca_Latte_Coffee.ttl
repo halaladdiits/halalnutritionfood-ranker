@@ -1,0 +1,33 @@
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix halalv: <http://halal.addi.is.its.ac.id/halalv.ttl#> .
+@prefix halalf: <http://halal.addi.is.its.ac.id/resources/foodproducts/> .
+@prefix halali: <http://halal.addi.is.its.ac.id/resources/ingredients/> .
+@prefix halals: <http://halal.addi.is.its.ac.id/resources/halalsources/> .
+@prefix halalc: <http://halal.addi.is.its.ac.id/resources/certificates/> .
+@prefix halalm: <http://halal.addi.is.its.ac.id/resources/manufactures/> .
+
+halalf:Good_Day_Mocca_Latte_Coffee a halalv:FoodProduct;
+	halalv:foodCode "8991002121034";
+	rdfs:label "Good Day Mocca Latte Coffee";
+	halalv:manufacture "PT. Monysaga Prima";
+	halalv:netWeight 200;
+	halalv:calories 110;
+	halalv:fat 2;
+	halalv:saturatedFat 2;
+	halalv:sodium 90;
+	halalv:fiber 2;
+	halalv:sugar 17;
+	halalv:protein 0;
+	halalv:vitaminA 4;
+	halalv:vitaminC 0;
+	halalv:calcium 4;
+	halalv:iron 0;
+	halalv:foodproductId 27.
+
+halalf:Good_Day_Mocca_Latte_Coffee halalv:manufacture halalm:27.
+
+halalf:Good_Day_Mocca_Latte_Coffee halalv:containsIngredient halali:Water, halali:Sugar, halali:creamer, halali:Instant_Coffee, halali:Skimmed_Milk, halali:cacao_powder, halali:Food_Stabilizer, halali:Identical_Mocca_Flavour.

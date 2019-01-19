@@ -1,0 +1,34 @@
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix halalv: <http://halal.addi.is.its.ac.id/halalv.ttl#> .
+@prefix halalf: <http://halal.addi.is.its.ac.id/resources/foodproducts/> .
+@prefix halali: <http://halal.addi.is.its.ac.id/resources/ingredients/> .
+@prefix halals: <http://halal.addi.is.its.ac.id/resources/halalsources/> .
+@prefix halalc: <http://halal.addi.is.its.ac.id/resources/certificates/> .
+@prefix halalm: <http://halal.addi.is.its.ac.id/resources/manufactures/> .
+
+halalf:Happy_Tos_Rasa_Jagung_Bakar a halalv:FoodProduct;
+	halalv:foodCode "8993027163754";
+	rdfs:label "Happy Tos Rasa Jagung Bakar";
+	halalv:manufacture "PT. Sinar Kencana Agung";
+	halalv:netWeight 55;
+	halalv:calories 280;
+	halalv:fat 14;
+	halalv:saturatedFat 6;
+	halalv:sodium 99.9;
+	halalv:fiber 4;
+	halalv:sugar 1;
+	halalv:protein 4;
+	halalv:vitaminA 0;
+	halalv:vitaminC 0;
+	halalv:calcium 0;
+	halalv:iron 0.
+
+halalf:Happy_Tos_Rasa_Jagung_Bakar halalv:manufacture halalm:2.
+
+halalf:Happy_Tos_Rasa_Jagung_Bakar halalv:certificate halalc:2.
+
+halalf:Happy_Tos_Rasa_Jagung_Bakar halalv:containsIngredient halali:Whole_Corn, halali:Palm_Oil, halali:Monosodium_glutamate, halali:Flavour_Enhacer, halali:Sunset_Yellow_FCF.

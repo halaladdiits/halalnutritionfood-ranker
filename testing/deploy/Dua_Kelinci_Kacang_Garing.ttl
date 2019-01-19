@@ -1,0 +1,35 @@
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix halalv: <http://halal.addi.is.its.ac.id/halalv.ttl#> .
+@prefix halalf: <http://halal.addi.is.its.ac.id/resources/foodproducts/> .
+@prefix halali: <http://halal.addi.is.its.ac.id/resources/ingredients/> .
+@prefix halals: <http://halal.addi.is.its.ac.id/resources/halalsources/> .
+@prefix halalc: <http://halal.addi.is.its.ac.id/resources/certificates/> .
+@prefix halalm: <http://halal.addi.is.its.ac.id/resources/manufactures/> .
+
+halalf:Dua_Kelinci_Kacang_Garing a halalv:FoodProduct;
+	halalv:foodCode "011747233033";
+	rdfs:label "Dua Kelinci - Kacang Garing";
+	halalv:manufacture "PT. Dua Kelinci";
+	halalv:netWeight 25;
+	halalv:calories 160;
+	halalv:fat 12;
+	halalv:saturatedFat 3;
+	halalv:sodium 99.9;
+	halalv:fiber 3;
+	halalv:sugar 1;
+	halalv:protein 8;
+	halalv:vitaminA 0;
+	halalv:vitaminC 0;
+	halalv:calcium 0;
+	halalv:iron 0;
+	halalv:foodproductId 17.
+
+halalf:Dua_Kelinci_Kacang_Garing halalv:manufacture halalm:17.
+
+halalf:Dua_Kelinci_Kacang_Garing halalv:certificate halalc:15.
+
+halalf:Dua_Kelinci_Kacang_Garing halalv:containsIngredient halali:Peanuts, halali:Salt, halali:Sugar.

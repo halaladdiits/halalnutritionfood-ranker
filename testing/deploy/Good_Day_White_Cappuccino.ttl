@@ -1,0 +1,33 @@
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix halalv: <http://halal.addi.is.its.ac.id/halalv.ttl#> .
+@prefix halalf: <http://halal.addi.is.its.ac.id/resources/foodproducts/> .
+@prefix halali: <http://halal.addi.is.its.ac.id/resources/ingredients/> .
+@prefix halals: <http://halal.addi.is.its.ac.id/resources/halalsources/> .
+@prefix halalc: <http://halal.addi.is.its.ac.id/resources/certificates/> .
+@prefix halalm: <http://halal.addi.is.its.ac.id/resources/manufactures/> .
+
+halalf:Good_Day_White_Cappuccino a halalv:FoodProduct;
+	halalv:foodCode "8991002113312";
+	rdfs:label "Good Day White Cappuccino";
+	halalv:manufacture "PT. Santos Jaya Abadi";
+	halalv:netWeight 25;
+	halalv:calories 110;
+	halalv:fat 3;
+	halalv:saturatedFat 2.5;
+	halalv:sodium 0;
+	halalv:fiber 1;
+	halalv:sugar 14;
+	halalv:protein 1;
+	halalv:vitaminA 0;
+	halalv:vitaminC 0;
+	halalv:calcium 10;
+	halalv:iron 0;
+	halalv:foodproductId 59.
+
+halalf:Good_Day_White_Cappuccino halalv:manufacture halalm:59.
+
+halalf:Good_Day_White_Cappuccino halalv:containsIngredient halali:Sugar, halali:Non_Dairy_Creamer, halali:Instant_Coffee, halali:Palm_Sugar, halali:Cocoa_Powder, halali:Artificial_Whiite_Cappuccino_Flavour.

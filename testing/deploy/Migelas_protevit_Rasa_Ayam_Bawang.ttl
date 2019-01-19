@@ -1,0 +1,33 @@
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix halalv: <http://halal.addi.is.its.ac.id/halalv.ttl#> .
+@prefix halalf: <http://halal.addi.is.its.ac.id/resources/foodproducts/> .
+@prefix halali: <http://halal.addi.is.its.ac.id/resources/ingredients/> .
+@prefix halals: <http://halal.addi.is.its.ac.id/resources/halalsources/> .
+@prefix halalc: <http://halal.addi.is.its.ac.id/resources/certificates/> .
+@prefix halalm: <http://halal.addi.is.its.ac.id/resources/manufactures/> .
+
+halalf:Migelas_protevit_Rasa_Ayam_Bawang a halalv:FoodProduct;
+	halalv:foodCode "8996001520116";
+	rdfs:label "Migelas protevit Rasa Ayam Bawang";
+	halalv:manufacture "PT. Dellifood Sentosa Corpindo";
+	halalv:netWeight 28;
+	halalv:calories 120;
+	halalv:fat 4;
+	halalv:saturatedFat 2.5;
+	halalv:sodium 0.2;
+	halalv:fiber 0;
+	halalv:sugar 0;
+	halalv:protein 2;
+	halalv:vitaminA 15;
+	halalv:vitaminC 0;
+	halalv:calcium 0;
+	halalv:iron 2;
+	halalv:foodproductId 37.
+
+halalf:Migelas_protevit_Rasa_Ayam_Bawang halalv:manufacture halalm:37.
+
+halalf:Migelas_protevit_Rasa_Ayam_Bawang halalv:containsIngredient halali:Wheat_Flour, halali:Tapioca_Starch, halali:Vegetable_Oil, halali:Salt, halali:Emulsifier, halali:Vegetable_Stabilizerand_Sodium_Polyphospate, halali:Acidity_Regulator, halali:Antioxidant, halali:Maltodextrine, halali:Yeast_Extract, halali:Dried_Vegetable, halali:Onion_Powder, halali:Sugar, halali:Hydrolised_Vegetable_Protein, halali:Garlic_Powder, halali:Flavor_Enhancer, halali:Pepper_Powder, halali:Anticacking, halali:Nature_Identical_Chicken_Flavor, halali:Caramel_Color_IV.

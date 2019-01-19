@@ -1,0 +1,33 @@
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix halalv: <http://halal.addi.is.its.ac.id/halalv.ttl#> .
+@prefix halalf: <http://halal.addi.is.its.ac.id/resources/foodproducts/> .
+@prefix halali: <http://halal.addi.is.its.ac.id/resources/ingredients/> .
+@prefix halals: <http://halal.addi.is.its.ac.id/resources/halalsources/> .
+@prefix halalc: <http://halal.addi.is.its.ac.id/resources/certificates/> .
+@prefix halalm: <http://halal.addi.is.its.ac.id/resources/manufactures/> .
+
+halalf:Indomilk_Cokelat a halalv:FoodProduct;
+	halalv:foodCode "8992702019713";
+	rdfs:label "Indomilk Cokelat";
+	halalv:manufacture "PT. Indolakto";
+	halalv:netWeight 37;
+	halalv:calories 170;
+	halalv:fat 5;
+	halalv:saturatedFat 2.5;
+	halalv:sodium 99.9;
+	halalv:fiber 3;
+	halalv:sugar 19;
+	halalv:protein 5;
+	halalv:vitaminA 30;
+	halalv:vitaminC 70;
+	halalv:calcium 30;
+	halalv:iron 0;
+	halalv:foodproductId 61.
+
+halalf:Indomilk_Cokelat halalv:manufacture halalm:61.
+
+halalf:Indomilk_Cokelat halalv:containsIngredient halali:Sugar, halali:Milk_Solid, halali:Cocoa_Butter, halali:Vegetable_Fat, halali:Emulsifiers, halali:Salt, halali:Flavour, halali:Antioxidant, halali:Premiks.

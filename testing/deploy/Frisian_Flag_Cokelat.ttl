@@ -1,0 +1,33 @@
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix halalv: <http://halal.addi.is.its.ac.id/halalv.ttl#> .
+@prefix halalf: <http://halal.addi.is.its.ac.id/resources/foodproducts/> .
+@prefix halali: <http://halal.addi.is.its.ac.id/resources/ingredients/> .
+@prefix halals: <http://halal.addi.is.its.ac.id/resources/halalsources/> .
+@prefix halalc: <http://halal.addi.is.its.ac.id/resources/certificates/> .
+@prefix halalm: <http://halal.addi.is.its.ac.id/resources/manufactures/> .
+
+halalf:Frisian_Flag_Cokelat a halalv:FoodProduct;
+	halalv:foodCode "899275310220";
+	rdfs:label "Frisian Flag Cokelat";
+	halalv:manufacture "PT. Frisian Flag Indonesia";
+	halalv:netWeight 220;
+	halalv:calories 140;
+	halalv:fat 4.5;
+	halalv:saturatedFat 1.5;
+	halalv:sodium 2.5;
+	halalv:fiber 0;
+	halalv:sugar 20;
+	halalv:protein 1;
+	halalv:vitaminA 15;
+	halalv:vitaminC 8;
+	halalv:calcium 6;
+	halalv:iron 0;
+	halalv:foodproductId 48.
+
+halalf:Frisian_Flag_Cokelat halalv:manufacture halalm:48.
+
+halalf:Frisian_Flag_Cokelat halalv:containsIngredient halali:Sucrose, halali:Water, halali:Vegetable_Oil, halali:Whey_Powder, halali:Cocoa_Powder, halali:Skim_Milk_Powder, halali:Maltodextrine, halali:Buttermilk_Powder, halali:Vegetable_Stabilizer, halali:Lactosa.
